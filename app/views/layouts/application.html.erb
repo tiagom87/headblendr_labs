@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Headblendr Labs - We Build Love</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<% flash.each do |type, message| %>
+		<div class="alert <%= flash_class type %>">
+      <button class="submit" data-dismiss="alert">x</button>
+
+		<%= message %>
+		</div>
+	<% end %>
+<%= render 'layouts/header' %>
+<%= yield %>
+<%= render 'layouts/footer' %>
+</body>
+</html>
