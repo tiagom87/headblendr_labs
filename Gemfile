@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.12'
 gem 'simple_form'
 gem 'newrelic_rpm'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do

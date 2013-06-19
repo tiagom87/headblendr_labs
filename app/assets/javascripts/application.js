@@ -10,11 +10,13 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require jquery-1.9.1.min.js
 //= require grid.js
-//= require jquery.scrollto.js
 //= require modernizr.custom.js
 //= require scripts.js
 //= require waypoints.min.js
 //= require bootstrap.js
+//= require jquery
+//= require jquery.scrollto.js
+//= require jquery_ujs
 //= require_tree .
+
